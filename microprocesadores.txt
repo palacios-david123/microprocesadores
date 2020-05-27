@@ -4,3 +4,7 @@
 
 const byte ROWS
 const byte COLS
+
+byte rowPins[ROWS]
+
+byte colPins[COLS]
