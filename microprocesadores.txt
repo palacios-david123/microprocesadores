@@ -10,3 +10,7 @@ byte rowPins[ROWS]
 byte colPins[COLS]
 
 Keypad keypad = Keypad( makeKeymap(keys), rowPins, colPins, ROWS, COLS );
+
+char password;
+char realpassword;
+byte index;
