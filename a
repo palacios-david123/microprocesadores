@@ -1,0 +1,8 @@
+if (index==6){
+    byte check =0;
+      for(int i=0;i<6;i++){
+        Serial.print(password[i]);
+        if (password[i]==realpassword[i]){
+          check++;
+        }
+      }   
