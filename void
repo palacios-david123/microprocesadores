@@ -1,0 +1,7 @@
+void loop(){
+  char key = keypad.getKey();
+
+  if (key != NO_KEY){
+    Serial.println(key);
+    password[index]= key;
+    index++;
