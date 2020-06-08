@@ -57,3 +57,6 @@ void loop(){
     lcd.clear();
     digitalWrite(A0,LOW);
     }
+  else{
+    lcd.clear();
+    lcd.setCursor(3,0);
