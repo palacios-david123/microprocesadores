@@ -15,3 +15,5 @@ char tecla[filas][columnas] = {
   {'7','8','9','C'},
   {'*','0','#','D'}
 };
+byte pinFilas[filas] = {7, 6, 5, 4};
+byte pinColumnas[columnas] = {3, 2, A4, A5} ;
