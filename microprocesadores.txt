@@ -45,3 +45,6 @@ void loop(){
     break;
     case 4:
     d=key;
+     delay(100);
+  if(a==C1 && b==C2 && c==C3 && d==C4){
+    lcd.clear();
