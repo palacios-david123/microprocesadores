@@ -25,3 +25,23 @@ void setup(){
   pinMode(A0,OUTPUT); 
   pinMode(A1,OUTPUT); 
 }
+
+void loop(){
+  char key = keypad.getKey();
+  if (key){
+   lcd.setCursor(5+var,1);
+   lcd.print(key),lcd.setCursor(5+var,1),lcd.print(f);
+   key=key-48; 
+   var++; 
+   switch(var){
+    case 1:
+    a=key; 
+    break;
+    case 2:
+    b=key; 
+    break;
+    case 3:
+    c=key; 
+    break;
+    case 4:
+    d=key;
