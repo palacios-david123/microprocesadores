@@ -1,8 +1,0 @@
-if (check== 6) {
-        digitalWrite(12, HIGH);
-        digitalWrite(13, LOW);
-        Serial.println("GREEN");
-      }else{
-        digitalWrite(13, HIGH);
-        digitalWrite(12, LOW);
-        Serial.println("RED");
