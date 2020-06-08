@@ -1,21 +1,17 @@
+#include <LiquidCrystal.h>
+         
 #include <Keypad.h>
-
-
-
-const byte ROWS
-const byte COLS
-
-byte rowPins[ROWS]
-
-byte colPins[COLS]
-
-Keypad keypad = Keypad( makeKeymap(keys), rowPins, colPins, ROWS, COLS );
-
-char password;
-char realpassword;
-byte index;
-
-void setup(){
-  Serial.begin(96);
-  pinMode(1,OUTPUT);
-  pinMode(3,OUTPUT);
+int a=0, b=0, c=0, d=0;
+int var=0; 
+int C1=1,C2=2,C3=3,C4=4;
+char f='*'; 
+int veces=0,incorrecto=0;
+int aviso=3; 
+const byte filas = 4; 
+const byte columnas = 4; 
+char tecla[filas][columnas] = {
+  {'1','2','3','A'},
+  {'4','5','6','B'},
+  {'7','8','9','C'},
+  {'*','0','#','D'}
+};
