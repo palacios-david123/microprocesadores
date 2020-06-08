@@ -65,3 +65,8 @@ void loop(){
     lcd.print("Incorrecto");
     digitalWrite(A1,HIGH);
     delay(400);
+lcd.clear();
+    digitalWrite(A1,LOW);
+    }
+   }
+  }
