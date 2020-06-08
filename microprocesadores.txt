@@ -70,3 +70,7 @@ lcd.clear();
     }
    }
   }
+if(!key){lcd.setCursor(0,0),lcd.print("BIENVENIDOS");}
+
+  delay(2);
+}
