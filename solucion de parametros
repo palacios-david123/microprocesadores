@@ -1,2 +1,0 @@
-byte rowPins[ROWS] = {9, 8, 7, 6}; //conecta los pines de la filas al pad
-byte colPins[COLS] = {5, 4, 3, 2}; //conecta los pines de la columna al pad
