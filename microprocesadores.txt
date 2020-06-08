@@ -48,3 +48,6 @@ void loop(){
      delay(100);
   if(a==C1 && b==C2 && c==C3 && d==C4){
     lcd.clear();
+ lcd.setCursor(3,0);
+    lcd.print("Password");
+    lcd.setCursor(3,1);
