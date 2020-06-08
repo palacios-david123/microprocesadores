@@ -60,3 +60,8 @@ void loop(){
   else{
     lcd.clear();
     lcd.setCursor(3,0);
+    lcd.print("Password");
+    lcd.setCursor(2,1);
+    lcd.print("Incorrecto");
+    digitalWrite(A1,HIGH);
+    delay(400);
