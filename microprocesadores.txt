@@ -17,3 +17,11 @@ char tecla[filas][columnas] = {
 };
 byte pinFilas[filas] = {7, 6, 5, 4};
 byte pinColumnas[columnas] = {3, 2, A4, A5} ;
+
+Keypad keypad = Keypad( makeKeymap(tecla), pinFilas, pinColumnas, filas, columnas );
+LiquidCrystal lcd(13,12,11,10,9,8); 
+void setup(){
+  lcd.begin(16,2); 
+  pinMode(A0,OUTPUT); 
+  pinMode(A1,OUTPUT); 
+}
