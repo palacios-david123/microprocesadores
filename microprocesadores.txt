@@ -51,3 +51,9 @@ void loop(){
  lcd.setCursor(3,0);
     lcd.print("Password");
     lcd.setCursor(3,1);
+ lcd.print("Correcto");
+    digitalWrite(A0,HIGH);
+    delay(700);
+    lcd.clear();
+    digitalWrite(A0,LOW);
+    }
